@@ -1,0 +1,1 @@
+﻿Get-BrokerDesktop -SessionState $Null -HostedMachineName "XD*"  | select -ExpandProperty  hostedmachinename | Out-File C:\vms.txt
